@@ -20,6 +20,11 @@ Optional: Add functional / unit tests with testing library of your choice.
 
 Good luck and do not hesitate to ask in case of any questions!
 
+## Solution notes
+
+- I've created stories for each component in the `src/components` directory so that they can be reviewed separately.
+- I assumed `src/api.ts` should be threatened like a file with an API request function, so I didn't write a test for it and mock its implementation in tests and storybook.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

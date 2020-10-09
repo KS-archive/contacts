@@ -1,0 +1,20 @@
+.listFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.failureState,
+.loadingState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.failureState > p,
+.loadingState > p {
+  margin: 0 0 12px;
+}
